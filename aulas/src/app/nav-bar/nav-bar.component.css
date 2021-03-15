@@ -1,0 +1,14 @@
+.active
+{
+  color: aquamarine;
+  font-size: large;
+  font-weight: bold;
+
+  transition: all 1s;
+
+}
+
+a
+{
+  padding: 5px;
+}
