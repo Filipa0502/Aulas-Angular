@@ -17,4 +17,9 @@ export class ExperimentsComponent implements OnInit {
   {
     this.name = event.target.value;
   }
+
+  isfocus()
+  {
+    console.log("Ola");
+  }
 }
