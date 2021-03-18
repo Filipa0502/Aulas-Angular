@@ -1,6 +1,9 @@
-<input type="text" [(ngModel)]="num1" (input) = "soma()">
-<input type="text" [(ngModel)]="num2" (input) = "soma()">
-<input type="text" [(ngModel)]="sinal" (input) = "soma()">
-<!--<h3>O valor da soma é {{+num1 ++ num2}} </h3>-->
+<div id="calculadora">
+  <input type="text" [(ngModel)]="num1" (input)="soma()">
+  <input type="text" [(ngModel)]="num2" (input)="soma()">
+  <input type="text" [(ngModel)]="sinal" (input)="soma()">
+  <!--<h3>O valor da soma é {{+num1 ++ num2}} </h3>-->
 
-<h3>O valor da soma é {{resultado}} </h3>
+  <h3>O valor da soma é {{resultado}} </h3>
+</div>
+

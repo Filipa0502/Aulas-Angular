@@ -2,3 +2,9 @@ input
 {
   display: block;
 }
+
+#apresentacao
+{
+  position: fixed;
+  top: 10%;
+}

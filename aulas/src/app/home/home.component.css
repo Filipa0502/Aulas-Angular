@@ -2,3 +2,9 @@ input
 {
   margin: 5px;
 }
+
+#home
+{
+  position: fixed;
+  top: 10%;
+}

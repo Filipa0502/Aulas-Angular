@@ -1,4 +1,7 @@
-<input type="text" (input)="changeName($event)" value={{name}} [style.color] = "name">
-<p>Olá, {{name}}</p>
+<div id="apresentacao">
+  <input type="text" (input)="changeName($event)" value={{name}} [style.color]="name">
+  <p>Olá, {{name}}</p>
 
-<input (focus)="isfocus()">
+  <!--<input (focus)="isfocus()">-->
+</div>
+
