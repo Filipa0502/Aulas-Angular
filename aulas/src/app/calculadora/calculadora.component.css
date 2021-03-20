@@ -1,5 +1,9 @@
 #calculadora
 {
-  position: fixed;
+  position: absolute;
   top: 10%;
+}
+input
+{
+  padding: 5px;
 }

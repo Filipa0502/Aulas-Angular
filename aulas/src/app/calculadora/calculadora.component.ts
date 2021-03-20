@@ -17,7 +17,7 @@ export class CalculadoraComponent implements OnInit {
   resultado : number;
   sinal : string = "+";
 
-  soma()
+  operacoes()
   {
     switch(this.sinal)
     {
