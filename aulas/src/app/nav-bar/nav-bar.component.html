@@ -1,85 +1,21 @@
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
+
 <body>
-<div id="navBar">
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <a class="navbar-brand-link" [routerLink]="['/home']" routerLinkActive="active">Home</a>
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/calculadora']" routerLinkActive="active">Calculator</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/readMeGen']" routerLinkActive="active">ReadMe Gen</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/experiments']" routerLinkActive="active">Experiments</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/enAndRef']" routerLinkActive="active">Events</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/fichaAnimal']" routerLinkActive="active">Animal</a>
-      </li>
-    </ul>
-  </nav>
-</div>
+  <div id="navBar">
+    <nav>
+      <ul>
+        <a [routerLink]="['/home']" routerLinkActive="active">Home</a>
 
+        <a [routerLink]="['/calculadora']" routerLinkActive="active">Calculator</a>
 
+        <a [routerLink]="['/readMeGen']" routerLinkActive="active">ReadMe Gen</a>
 
+        <a [routerLink]="['/experiments']" routerLinkActive="active">Experiments</a>
 
+        <a [routerLink]="['/enAndRef']" routerLinkActive="active">Events</a>
 
+        <a [routerLink]="['/fichaAnimal']" routerLinkActive="active">Animal</a>
 
-<!-------------------------------------------------------Footer------------------------------------------------------>
-
-<div class="container-fluid pb-0 mb-0 justify-content-center text-light ">
-  <footer>
-    <div class="row my-5 justify-content-center py-5">
-      <div class="col-11">
-        <div class="row ">
-          <div class="col-xl-2 col-md-4 col-sm-4 col-12">
-            <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>Menu</b></h6>
-            <ul class="list-unstyled">
-              <li>Home</li>
-              <li>Calculator</li>
-              <li>ReadMe Gen</li>
-              <li>Experiments</li>
-              <li>Events</li>
-              <li>Animal</li>
-
-            </ul>
-          </div>
-          <div class="col-xl-2 col-md-4 col-sm-4 col-12">
-          </div>
-          <div class=" col-md-5">
-            <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>Dados</b></h6>
-            <ul class="list-unstyled">
-              <li>Instituto Politécnico do Cávado e do Ave</li>
-              <li>Escola Técnica Superior Profissional</li>
-              <li>Polo de Vila Nova de Famalicão</li>
-              <li>Curso Técnico Superior Profissional em Desenvolvimento Web e Multimédia</li>
-            </ul>
-          </div>
-          <div class=" col-md-3">
-            <a href="#" data-toggle="collapse">
-              <img src="https://document-export.canva.com/PL8HU/DAEZS0PL8HU/109/thumbnail/qJ98NQU6_noP2NsMkWNhLA-0001-18587272334.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20210319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210319T160304Z&X-Amz-Expires=82342&X-Amz-Signature=3935f64cf0b5376f95c7a4421307844a29e0404428801cffff54c4f9987c5066&X-Amz-SignedHeaders=host&response-expires=Sat%2C%2020%20Mar%202021%2014%3A55%3A26%20GMT" class="img-circle person" width="200" height="200">
-            </a>
-          </div>
-        </div>
-        <hr>
-        <div class="row" id="direitos">
-          <p>Copyright &copy; Filipa Silva </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-</div>
+      </ul>
+    </nav>
+  </div>
 </body>

@@ -14,20 +14,4 @@ a
 }
 
 
-/****************************************Footer**********************************************/
-
-@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Source+Code+Pro&display=swap');
-.container-fluid
-{
-  overflow: hidden;
-  margin-top: 1000px;
-  background: #262626;
-  color: #6286a1;
-  font-family: 'Redressed', cursive;
-}
-h6
-{
-  font-family: 'Redressed', cursive;
-}
 

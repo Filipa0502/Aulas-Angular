@@ -1,3 +1,4 @@
+
 input
 {
   margin: 5px;
@@ -7,4 +8,12 @@ input
 {
   position: absolute;
   top: 10%;
+}
+img
+{
+  top:20%;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 35%;
 }
