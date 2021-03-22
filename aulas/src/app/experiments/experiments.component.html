@@ -1,7 +1,24 @@
 <div id="apresentacao">
-  <input type="text" (input)="changeName($event)" value={{name}} [style.color]="name">
+  <input type="text" (input)="changeName($event)" value={{name}} [style.background]="name">
   <p>Olá, {{name}}</p>
-
+  <hr>
+  <p>ngModel</p>
+  <input [(ngModel)] = 'varialvel'>
+  <h1>{{varialvel}}</h1>
+  <hr>
   <!--<input (focus)="isfocus()">-->
+
+  <!--demostrar um array
+  <h1>{{arrayAnimais[0]}}</h1>
+  <h1>{{arrayAnimais[1]}}</h1>
+  <h1>{{arrayAnimais[2]}}</h1>
+  <h1>{{arrayAnimais[3]}}</h1>-->
+
+  <h2>Diretive NG for</h2>
+  <div *ngFor="let animal of arrayAnimais">
+    <h4>{{animal}}</h4>
+  </div>
+
+  <app-exp2 [nameRecebido]= 'name'></app-exp2>
 </div>
 

@@ -18,8 +18,11 @@ export class ExperimentsComponent implements OnInit {
     this.name = event.target.value;
   }
 
-  isfocus()
+  varialvel = "ola";
+  /*isfocus()
   {
     console.log("Ola");
-  }
+  }*/
+
+  arrayAnimais : Array<string> = ["cao", "gato", "papagaio", "coelho"];
 }
