@@ -1,1 +1,8 @@
-<input type="text" [style.background] = "cor" (mouseenter)='changeColor("red")' (focus)='changeColor("pink")' (blur)='changeColor("grey")' (input)='changeColor("green")' (copy)='changeColor("yellow")'>
+<div>
+  <input type="text" [style.background] = "cor" (mouseenter)='changeColor("red")' (focus)='changeColor("pink")' (blur)='changeColor("grey")' (input)='changeColor("green")' (copy)='changeColor("yellow")' #ref>
+
+  <button (click)="color(ref)">Color</button>
+  <button (click)="size(ref)">Size</button>
+  <button (click)="background(ref)">Background</button>
+</div>
+

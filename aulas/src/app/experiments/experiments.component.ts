@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-experiments',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperimentsComponent implements OnInit {
 
+  @ViewChild('refExp') referencia : ElementRef | undefined
   constructor() { }
 
   ngOnInit(): void {
@@ -25,4 +26,10 @@ export class ExperimentsComponent implements OnInit {
   }*/
 
   arrayAnimais : Array<string> = ["cao", "gato", "papagaio", "coelho"];
+
+  analisarReferencia()
+  {
+    console.log(this.referencia.nativeElement.value);
+  }
+
 }
