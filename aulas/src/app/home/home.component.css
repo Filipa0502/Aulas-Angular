@@ -17,3 +17,10 @@ img
   height: 400px;
   left: 35%;
 }
+
+#sobre
+{
+  background-color: rgb(214, 204, 190);
+  width: auto;
+  height: auto;
+}

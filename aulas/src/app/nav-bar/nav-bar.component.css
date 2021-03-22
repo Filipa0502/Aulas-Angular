@@ -13,5 +13,14 @@ a
   padding: 5px;
 }
 
+#navBar
+{
+  text-decoration:none;
+
+  background-color: #262626;
+  width: auto;
+  padding: 5px;
+}
+
 
 
