@@ -1,8 +1,8 @@
-body {
+/*body {
   background-color: #EEEBE8;
 }
 
-/****************************************Footer**********************************************/
+***************************************Footer*********************************************
 
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Source+Code+Pro&display=swap');
@@ -17,4 +17,25 @@ body {
 h6
 {
   font-family: 'Redressed', cursive;
+}
+*/
+
+
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #645f5f;
+  color: white;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.toolbar img {
+  margin: 0 16px;
 }
