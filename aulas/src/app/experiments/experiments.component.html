@@ -5,6 +5,9 @@
     <hr>
   <input type="text" (input)="changeName($event)" value={{name}} [style.background]="name">
   <p>Olá, {{name}}</p>
+  <h1 *ngIf="name == 'Filipa'">OH RAIO ES TU PA!</h1>
+  <hr>
+  <button class="btn" [ngClass]="{'btn-warning': name == 'Filipa' ? true : false}">teste</button>
   <hr>
   <p>ngModel</p>
   <input [(ngModel)] = 'varialvel'>
@@ -19,8 +22,8 @@
   <h1>{{arrayAnimais[3]}}</h1>-->
 
   <h2>Diretive NG for</h2>
-  <div *ngFor="let animal of arrayAnimais">
-    <h4>{{animal}}</h4>
+  <div *ngFor="let animal of arrayAnimais; let i = index">
+    <h4 [ngStyle]="{'color' :           i % 2 == 0 ? 'green' : 'red'}">{{animal}}</h4>
   </div>
 
   <!--<app-exp2 [nameRecebido]= 'name'></app-exp2>-->
@@ -33,5 +36,6 @@
   <!--botao com bootstrap-->
   <button class="btn btn-success">teste</button>
 
+  <hr>
 </div>
 
