@@ -23,12 +23,14 @@
     <h4>{{animal}}</h4>
   </div>
 
-  <app-exp2 [nameRecebido]= 'name'></app-exp2>
+  <!--<app-exp2 [nameRecebido]= 'name'></app-exp2>-->
   <hr>
+  <!--comunicar de pai para filho-->
   <h3>Info father to child</h3>
   <app-exp2 [nameRecebido]='name'></app-exp2>
   <button (click)="analisarReferencia()">Teste</button>
   <hr>
+  <!--botao com bootstrap-->
   <button class="btn btn-success">teste</button>
 
 </div>
