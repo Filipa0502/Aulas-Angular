@@ -12,5 +12,6 @@ export class EscolheAnimalComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  animal:string;
 
 }
