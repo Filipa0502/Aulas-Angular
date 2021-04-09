@@ -1,21 +1,9 @@
-
-input
-{
-  margin: 5px;
+.example-card {
+  max-width: 400px;
+  max-height: 400px;
 }
 
-#home
-{
-  position: absolute;
-  top: 10%;
-}
-
-#sobre
-{
-  background-color: rgb(214, 204, 190);
-  width: auto;
-  height: auto;
-}
+/*//////////////////////////////////////Imagem de fundo e inicio/////////////////////////////////*/
 .container
 {
   display: flex;
@@ -29,7 +17,7 @@ input
 }
 
 
-
+/*////////////////////////////////////////Cards/////////////////////////////////////////*/
 .content {
   display: flex;
   margin: 82px auto 32px;
@@ -69,7 +57,7 @@ input
   box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
 }
 
-/* Responsive Styles */
+/*/////////////////////////////////////////////Responsivo//////////////////////////////////////////// */
 @media screen and (max-width: 767px) {
 
   .card-container > *:not(.circle-link) ,
