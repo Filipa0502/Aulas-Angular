@@ -102,6 +102,7 @@
   overflow: hidden;
   transition: 1s all ease;
 }
+
 .btn::before{
   background: #b9b5b5;
   content: "";
