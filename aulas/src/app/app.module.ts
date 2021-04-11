@@ -15,6 +15,7 @@ import { FichaAnimalComponent } from './ficha-animal/ficha-animal.component';
 import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.component';
 import { CookiesComponent } from './cookies/cookies.component';
 import { Exp3Component } from './exp3/exp3.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { Exp3Component } from './exp3/exp3.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    MDBBootstrapModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,16 +1,12 @@
 
 <div class="container">
+  <video class="bgVideo" autoplay loop>
+    <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
+  </video>
   <div id="imagens">
     <img class="logo" width="400" src="assets/imagens/logo.png">
   </div>
 </div>
-
-  <!--<div class="card-container">
-    <h2>Sobre</h2>
-    <img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png">
-      Angular é uma plataforma e framework para construção da interface de aplicações usando HTML, CSS e, principalmente, JavaScript, criada pelos desenvolvedores da Google.
-  </div>-->
-
 
 <div class="content" role="main">
   <h2>Projetos</h2>
@@ -19,36 +15,50 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="card-body">
-          <img class="card-img-bottom" src="assets/imagens/calculadora.png" alt="Card image" style="width:70%">
+          <img class="card-img-bottom" src="assets/imagens/calculadora.jpg" alt="Card image" style="width:100%">
+        </div>
+        <div class="card-footer">
           <a [routerLink]="['/calculadora']" routerLinkActive="active" class="btn btn1">Calculator</a>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="card-body">
-          <img class="card-img-bottom" src="assets/imagens/read.png" alt="Card image" style="width:95%">
+          <img class="card-img-bottom" src="assets/imagens/readMeGen.jpg" alt="Card image" style="width:100%">
+        </div>
+        <div class="card-footer">
           <a [routerLink]="['/readMeGen']" routerLinkActive="active" class="btn btn1">ReadMe Gen</a>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="card-body">
-          <img class="card-img-bottom" src="assets/imagens/experiments.png" alt="Card image" style="width:111%">
+          <img class="card-img-bottom" src="assets/imagens/experiments.jpg" alt="Card image" style="width:100%">
+        </div>
+        <div class="card-footer">
           <a [routerLink]="['/experiments']" routerLinkActive="active" class="btn btn1">Experiments</a>
         </div>
       </div>
     </div>
+    </div>
+    <div class="card-container" id="projetos">
     <div class="row">
       <div class="col-sm-4">
         <div class="card-body">
-          <img class="card-img-bottom" src="assets/imagens/eventos.png" alt="Card image" style="width:100%">
+          <img class="card-img-bottom" src="assets/imagens/events.jpg" alt="Card image" style="width:100%">
+        </div>
+        <div class="card-footer">
           <a [routerLink]="['/enAndRef']" routerLinkActive="active" class="btn btn1">Events</a>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="card-body">
-          <img class="card-img-bottom" src="assets/imagens/animal.png" alt="Card image" style="width:100%">
+          <img class="card-img-bottom" src="assets/imagens/animal.jfif" alt="Card image" style="width:100%">
+        </div>
+        <div class="card-footer">
           <a [routerLink]="['/fichaAnimal']" routerLinkActive="active" class="btn btn1">Animal</a>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
