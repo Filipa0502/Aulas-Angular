@@ -16,6 +16,8 @@ import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.componen
 import { CookiesComponent } from './cookies/cookies.component';
 import { Exp3Component } from './exp3/exp3.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { AnimalReaderComponent } from './ficha-animal/animal-reader/animal-reader.component';
+import { CriarAnimalComponent } from './ficha-animal/criar-animal/criar-animal.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     FichaAnimalComponent,
     EscolheAnimalComponent,
     CookiesComponent,
-    Exp3Component
+    Exp3Component,
+    AnimalReaderComponent,
+    CriarAnimalComponent
   ],
   imports: [
     BrowserModule,

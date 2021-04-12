@@ -1,3 +1,9 @@
+#read
+{
+  position: absolute;
+  top: 10%;
+}
+
 .video-fluid
 {
   position: fixed;
@@ -10,3 +16,5 @@
 	z-index: -1000;
   opacity: 60%;
 }
+
+

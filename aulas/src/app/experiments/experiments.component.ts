@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Preferencias } from '../classes/preferencias';
 
 @Component({
   selector: 'app-experiments',
@@ -32,5 +33,9 @@ export class ExperimentsComponent implements OnInit {
   {
     console.log(this.referencia.nativeElement.value);
   }
+
+
+  definicao : Preferencias = new Preferencias("pink","red");
+
 
 }

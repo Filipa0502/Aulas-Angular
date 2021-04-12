@@ -10,4 +10,13 @@
     <option>Rapoza</option>
   </select>
   <app-escolhe-animal [animalRecebido]="animal"></app-escolhe-animal>
+
+
 </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-3" *ngFor="let animalAtual of animais">
+        <app-animal-reader [animalSerLido]='animalAtual'></app-animal-reader>
+      </div>
+    </div>
+  </div>
