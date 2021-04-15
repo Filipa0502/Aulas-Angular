@@ -1,5 +1,6 @@
-#animal
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+.dados
 {
-  position: absolute;
-  top: 10%;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
 }
